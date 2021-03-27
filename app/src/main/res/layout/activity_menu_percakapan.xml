@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu"
+    tools:context=".Menu_percakapan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_perkenalan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="140dp"
+            android:src="@drawable/button_perkenalan"/>
+
+        <ImageButton
+            android:id="@+id/btn_kebangsaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/button_kebangsaan"/>
+
+        <ImageButton
+            android:id="@+id/btn_profesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/button_profesi" />
+
+        <ImageButton
+            android:id="@+id/btn_keluarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/button_keluarga"/>
+
+        <ImageButton
+            android:id="@+id/btn_sholat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/button_sholat"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

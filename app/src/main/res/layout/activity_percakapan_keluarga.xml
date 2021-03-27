@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_chat"
+    android:layout_marginBottom="10dp"
+    tools:context=".PercakapanKeluarga">
+
+    <!--region Percakapan nya-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/keluarga_1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/keluarga_2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/keluarga_3"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/keluarga_4"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/keluarga_5"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/keluarga_6"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/keluarga_7"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/keluarga_8"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/keluarga_9" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/keluarga_10"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/keluarga_11"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/keluarga_12"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="17dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/keluarga_13"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <!--endregion-->
+
+    <!--region Tombol2 Audio-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_pause_keluarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="360dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/button_pause"/>
+
+        <ImageButton
+            android:id="@+id/btn_play_keluarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="360dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/button_play"/>
+
+        <ImageButton
+            android:id="@+id/btn_stop_keluarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="360dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/button_stop"/>
+
+    </LinearLayout>
+    <!--endregion-->
+
+    <!--region Garis play-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_pass_keluarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_due_keluarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pass"
+            android:layout_marginTop="325dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:saveEnabled="false" />
+    </LinearLayout>
+    <!--endregion-->
+
+    <!--region Tombol Back-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_back_keluarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/button_back"/>
+    </LinearLayout>
+    <!--endregion-->
+
+</RelativeLayout>
